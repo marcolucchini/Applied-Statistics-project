@@ -1,11 +1,6 @@
 import pandas as pd
-from pyrsistent import inc
 import streamlit as st
 import numpy as np
-import joblib
-import matplotlib.pyplot as plt
-import shap
-from os.path import join
 
 # web interface
 st.title('Mixed and functional analysis models for studying Heart Failure (re)-hospitalizations')
