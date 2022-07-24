@@ -40,11 +40,11 @@ st.image("Fit poisson ric1.png")
 st.subheader("Cluster Interpretation")
 st.image("Cluster.png")
 
-st.subheader("Example of prediction")
+st.subheader("Example one year life expectancy prediction")
 st.write("""In conclusion, we want to show a case example with one imaginary patient to present 
 the information we could provide to help doctors in making their decisions. 
-To do so, we make predictions for the number of hospitalizations and the probability 
-of death within a one-year horizon, and we also studied how our prediction changes depending 
+To do so, we make predictions for the probability 
+of death within a one-year horizon. We also studied how our prediction changes depending 
 on the hospital where the patient is admitted and on his initial comorbidities.
 """)
 st.image("logistic ranef.png")
