@@ -54,5 +54,6 @@ st.image("logistic ranef.png")
 st.subheader("Bibliography")
 st.write("""* Mohammad MA, Koul S, Rylance R, et al. Association of Weather With Day-to-Day Incidence of Myocardial Infarction: A SWEDEHEART Nationwide Observational Study. JAMA Cardiol. 2018
 * Mazzali, C., Paganoni, A.M., Ieva, F. et al. Methodological issues on the use of administrative data in healthcare research: the case of heart failure hospitalizations in Lombardy region, 2000 to 2012
-* Trevor Hastie,Robert Tibshirani,Jerome Friedman, et. al. The Elements of Statistical Learning Data Mining, Inference, and Prediction. Second edition, Springer, 2008""", )
-
+* Johnson, R.A. e Wichern, D.W., Applied Multivariate Statistical Analysis , Editore: Prentice Hall, Upper Saddle River, Anno edizione: 2007
+* Trevor Hastie,Robert Tibshirani,Jerome Friedman, et. al. The Elements of Statistical Learning Data Mining, Inference, and Prediction. Second edition, Springer, 2008
+* Ramsay, J.O. e Silverman, B.W.,, Functional Data Analysis (second edition), Editore: Springer Series in Statistics, Springer, Anno edizione: 2005""")
