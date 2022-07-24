@@ -26,17 +26,7 @@ We tried to apply an MCA on comorbidities but the results were not so relevant.
 Indeed to reach an acceptable percentage of explained variability (80%) we should have 
 kept at least 14 factors out of 20 comorbidities.
 """)
-col1, col2, col3 = st.columns(3)
-
-with col1:
-    st.write(' ')
-
-with col2:
-    st.image("MCA.png")
-
-with col3:
-    st.write(' ')
-
+st.image("MCA.png")
 
 st.subheader("Poisson Regression")
 st.write("""In statistics, Poisson regression is a generalized linear model form of regression analysis used to model count data. 
