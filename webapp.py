@@ -15,7 +15,7 @@ For more information about the models see `Applied_project.R` in the `Script` fo
 
 # main page
 st.subheader("Research goals")
-st.image("research_goals.png")
+st.image("research_goals.png", )
 
 st.subheader("Multiple Correspondence Analysis")
 st.write("""In statistics, multiple correspondence analysis (MCA) is a data analysis technique for 
@@ -26,7 +26,17 @@ We tried to apply an MCA on comorbidities but the results were not so relevant.
 Indeed to reach an acceptable percentage of explained variability (80%) we should have 
 kept at least 14 factors out of 20 comorbidities.
 """)
-st.image("MCA.png")
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.write(' ')
+
+with col2:
+    st.image("MCA.png")
+
+with col3:
+    st.write(' ')
+
 
 st.subheader("Poisson Regression")
 st.write("""In statistics, Poisson regression is a generalized linear model form of regression analysis used to model count data. 
