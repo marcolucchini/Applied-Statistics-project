@@ -32,7 +32,7 @@ st.subheader("Poisson Regression")
 st.write("""In statistics, Poisson regression is a generalized linear model form of regression analysis used to model count data. 
 It assumes the response variable Y has a Poisson distribution, and that the logarithm of its expected value can be 
 modelled by a linear combination of unknown parameters.
-If 𝑥∈𝑅^(𝑟+1) is a vector of a vector of independent variables, then the model takes the form: 
+If 𝑥∈𝑅^(𝑟+1) is a vector of independent variables, then the model takes the form: 
 log⁡(𝐸[𝑦│𝑥])=𝛽𝑥 , where 𝛽∈𝑅^(𝑟+1)""")
 st.image("Fit poisson ric1.png")
 
@@ -45,7 +45,7 @@ st.write("""In conclusion, we want to show a case example with one imaginary pat
 the information we could provide to help doctors in making their decisions. 
 To do so, we make predictions for the probability 
 of death within a one-year horizon. We also studied how our prediction changes depending 
-on the hospital where the patient is admitted and on his initial comorbidities.
+on the hospital, the best and the worst, where the patient is admitted and on his initial comorbidities.
 """)
 st.image("logistic ranef.png")
 
