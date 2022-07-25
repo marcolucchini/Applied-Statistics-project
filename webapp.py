@@ -13,6 +13,8 @@ In the end, you will find the bibliography.
 For more information about the models see `Applied_project.R` in the `Script` folder of this repository. 
 """)
 
+st.write("Tutor: Francesca Ieva, Chiara Masci, Alessandra Ragni")
+
 # main page
 st.subheader("Research goals")
 st.image("research_goals.png", )
